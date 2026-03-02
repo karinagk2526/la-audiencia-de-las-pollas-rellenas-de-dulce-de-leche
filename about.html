@@ -1,0 +1,142 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Historia | WeBorina</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #1a2a3a;
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #3498db;
+            display: inline-block;
+            width: 100%;
+            padding-bottom: 15px;
+        }
+
+        /* Bloques de contenido */
+        .section {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 50px;
+            flex-wrap: wrap; /* Para que sea móvil-friendly */
+        }
+
+        .section-reverse {
+            flex-direction: row-reverse;
+        }
+
+        .text-content {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .image-container {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .imagen-pro {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .imagen-pro:hover {
+            transform: scale(1.02);
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #555;
+            text-align: justify;
+        }
+
+        /* Botón de regreso */
+        .footer-nav {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        .btn-home {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn-home:hover {
+            background-color: #2c3e50;
+        }
+
+        /* Ajustes para móviles */
+        @media (max-width: 600px) {
+            .container { padding: 20px; margin: 10px; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Nuestra Trayectoria</h1>
+
+        <div class="section">
+            <div class="image-container">
+                <img src="img1.jpg" alt="Inicios del proyecto" class="imagen-pro">
+            </div>
+            <div class="text-content">
+                <p>
+                    Desde un prometedor inicio, nuestro proyecto nació de la unión de un grupo de amigos comprometidos con el periodismo veraz. 
+                    Durante los primeros años, el destino pareció estar en nuestra contra, pero gracias a nuestra fuerte cohesión y resiliencia y  gracias a liderazgo  de un compañero que era nuestra brujula moral , logramos prosperar y consolidar nuestra visión.
+                </p>
+            </div>
+        </div>
+
+        <div class="section section-reverse">
+            <div class="image-container">
+                <img src="img2.jpg" alt="Evolución de la empresa" class="imagen-pro">
+            </div>
+            <div class="text-content">
+                <p>
+                    tras conseguir desacernos de nuestro  amigo de izquierdas , que estaba empobreciondo la empresa como es   habitual en los zurdos,  ahora  estamos abiertos a opinar lo que nuestros publicistas quieran . Actualmente, nos encontramos en una fase de expansión comercial, abiertos a nuevas colaboraciones y alianzas estratégicas que impulsen nuestro crecimiento.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-nav">
+            <a href="index.html" class="btn-home">← Volver al Inicio</a>
+        </div>
+    </div>
+
+</body>
+</html>

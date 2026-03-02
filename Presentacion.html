@@ -1,0 +1,144 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación | WeBorina</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .main-container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #e67e22; /* Un color naranja/alerta para ciberseguridad */
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+
+        h1 { margin: 0; color: #1a1a1a; font-size: 2.2rem; }
+
+        /* Estilo de las noticias */
+        .news-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .news-card {
+            background: #f1f4f8;
+            padding: 20px;
+            border-radius: 8px;
+            border-top: 4px solid #e67e22;
+            transition: transform 0.2s;
+        }
+
+        .news-card:hover { transform: translateY(-5px); }
+        .news-card h3 { font-size: 1.1rem; margin-top: 0; }
+        .news-card a { color: #d35400; text-decoration: none; font-weight: bold; font-size: 0.9rem; }
+
+        /* Sección de Opinión y Conclusión */
+        .opinion-section {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 30px;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .opinion-section h2 { color: #e67e22; margin-top: 0; }
+
+        .opinion-text {
+            font-style: italic;
+            border-left: 4px solid #e67e22;
+            padding-left: 20px;
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        .solution-box {
+            background: rgba(230, 126, 34, 0.1);
+            border: 1px solid #e67e22;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .solution-box strong { color: #e67e22; font-size: 1.2rem; display: block; margin-bottom: 10px; }
+
+        .nav-footer {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .btn-nav {
+            text-decoration: none;
+            color: #7f8c8d;
+            font-weight: bold;
+            border: 1px solid #bdc3c7;
+            padding: 8px 20px;
+            border-radius: 20px;
+            transition: all 0.3s;
+        }
+
+        .btn-nav:hover { background: #7f8c8d; color: white; }
+
+        @media (max-width: 600px) {
+            .news-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="main-container">
+    <header>
+        <h1>Presentación WeBorina</h1>
+        <p>Análisis Crítico sobre la Privacidad y Ciberseguridad</p>
+    </header>
+
+    <div class="news-grid">
+        <div class="news-card">
+            <h3>Cloud e IA: Nueva Superficie de Ataque</h3>
+            <p>Análisis sobre cómo la adopción acelerada eleva el riesgo ante ciberamenazas en 2025.</p>
+            <a href="https://www.revistaciberseguridad.com/2025/10/la-adopcion-acelerada-de-cloud-e-ia-amplia-la-superficie-de-ataque-y-eleva-el-riesgo-ante-las-ciberamenazas/" target="_blank">Leer Artículo 2025 →</a>
+        </div>
+        <div class="news-card">
+            <h3>IA Generativa y Políticas de Datos</h3>
+            <p>Las violaciones de seguridad se duplican. Un informe alarmante sobre el uso de la IA.</p>
+            <a href="https://www.revistaciberseguridad.com/2026/01/las-violaciones-de-politicas-de-datos-de-ia-generativa-aumentaron-mas-del-doble-en-2025/" target="_blank">Leer Artículo 2026 →</a>
+        </div>
+    </div>
+
+    <div class="opinion-section">
+        <h2>Editorial:WEborina</h2>
+        <div class="opinion-text">
+            "Mi opinión personal es drástica y categórica: las redes sociales fueron un error. Son las mayores fuentes de macrodatos, donde mejor se mide la conciencia de la gente. Los Estados han abandonado a sus ciudadanos para favorecer a empresas privadas y afiliaciones imperiales, protegiendo intereses de mercadeo con información personal. Es la complicidad de las instituciones la que permite esta explotación y, cuando los datos se filtran, las pérdidas se socializan mientras las ganancias se privatizan."
+        </div>
+
+        <div class="solution-box">
+            <strong>Nuestra Propuesta de Solución:</strong>
+            La creación de un Ministerio de Seguridad Informática  que audite de forma vinculante. No basta con cumplir medidas; se debe responsabilizar penal y administrativamente a las cabezas directivas por la pérdida de datos de los ciudadanos.
+        </div>
+    </div>
+
+    <div class="nav-footer">
+        <a href="index.html" class="btn-nav">Ir a la Homepage</a>
+    </div>
+</div>
+
+</body>
+</html>
